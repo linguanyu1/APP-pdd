@@ -11,7 +11,7 @@ ul li {
   display: flex;
   white-space: nowrap;
   flex-direction: column;
-  padding: 0;
+  padding: 1px;
   justify-content: space-between;
   align-items: center;
 }
