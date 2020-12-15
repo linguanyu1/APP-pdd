@@ -38,5 +38,6 @@ export class ScrollTabComponent implements OnInit , OnChanges {
   handleSelection(index: number) {
     this.selectIndex = index;
     this.tabSelected.emit(this.menus[this.selectIndex]);
+    console.log('-----------');
   }
 }
