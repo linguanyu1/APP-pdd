@@ -1,0 +1,15 @@
+<!-- <ul  [ngStyle]="{'background-color':backgroundColor}">
+  <li *ngFor="let item of menus; let i = index"
+  ><a href="#"
+    [class.active]="i===selectIndex"
+    (click)="handleSelection(i)"
+    [ngStyle] = "{color:i === selectIndex ? activeColor : titleColor}"
+    >{{item.title}}</a>
+    <span class="indicator" [ngStyle] = "{' background-color': indicatorColor }" *ngIf="i===selectIndex"></span>
+  </li>
+</ul> -->
+<form action="" [formGroup]="formgroup">
+  <input matInput placeholder="..."  formControlName="first" />
+  <button [disabled]="!formgroup.valid"> ok</button>
+</form>
+

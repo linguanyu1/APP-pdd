@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "APP-pdd"
+  "defaultProject": "APP-pdd",
+  "cli": {
+    "analytics": "2c964474-765d-4492-9141-a96d4778c09b"
+  }
 }
