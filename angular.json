@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "APP-pdd"
+  "defaultProject": "APP-pdd",
+  "cli": {
+    "analytics": false
+  }
 }
